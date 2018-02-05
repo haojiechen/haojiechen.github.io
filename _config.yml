@@ -3,7 +3,7 @@ title: '陈浩杰的个人博客'
 description: '时而孤独，时而放纵，热爱生活。喜爱技术，情感丰富，爱听故事，只是没酒。'
 keyword: '陈浩杰, 陈浩杰的博客,河南大学学生, 河大学生,河大'
 url: 'https://haojiechen.github.io/' # your host
-baseurl: 'https://haojiechen.github.io/'
+
 
 # Navigation links
 nav:
@@ -27,9 +27,7 @@ search: true
 nightMode: true
 
 # Comments
-disqus: false
-disqus_url: ""
-livere: false
+
 
 
 # Reward 赞赏功能 by Ray-Eldath
