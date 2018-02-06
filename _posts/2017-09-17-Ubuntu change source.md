@@ -12,7 +12,7 @@ tags: Linux
 
 用编辑器打开源文件。  
 将如下代码复制到文件中：
-```java
+```css
 # deb cdrom:[Ubuntu 16.04 LTS _Xenial Xerus_ - Release amd64 (20160420.1)]/ xenial main restricted
 deb-src http://archive.ubuntu.com/ubuntu xenial main restricted #Added by software-properties
 deb http://mirrors.aliyun.com/ubuntu/ xenial main restricted

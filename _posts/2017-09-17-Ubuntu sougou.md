@@ -4,7 +4,7 @@ title: 'Ubuntu下搜狗输入法无法实现中英文切换'
 subtitle: 'Linux'
 date: 2017-9-17
 categories: Linux
-tags: Ubuntu Linux 输入法
+tags: Linux
 ---
 # Ubuntu下搜狗输入法无法实现中英文切换
 莫名其妙的按 __shift__ 键无法实现中文向英文的转换，即使进行了下图的设置:  

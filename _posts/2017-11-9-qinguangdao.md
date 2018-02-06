@@ -5,7 +5,7 @@ subtitle: '区域赛'
 date: 2017-11-9
 cover: /assets/img/qinhuangdao2.jpg
 categories: ACM
-tags: ACM
+tags: ACM 生活
 ---
 # 区域赛之秦皇岛站
 > 一直拖到青岛站结束才写这篇博客，本打算青岛能拿银奖，然后怀着一颗释然的心来补这篇博客，但总是事与愿违。相隔时间有点长，很多细节都已记不大清楚。

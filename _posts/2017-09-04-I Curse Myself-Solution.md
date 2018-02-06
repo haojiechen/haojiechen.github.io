@@ -1,11 +1,11 @@
 ---
 layout: post
 title: 'hdu 6041-I Curse Myself(第k小生成树)'
-subtitle: '算法篇'
+subtitle: '算法'
 date: 2017-9-4
 cover: /assets/img/I Curse Myself-Solution.jpg
 categories: 算法
-tags: 树 集合合并 算法
+tags: ACM
 ---
 # HDU-6041 I Curse Myself (第k小生成树)
 __传送门__:   [点这里~](http://acm.hdu.edu.cn/showproblem.php?pid=6041) 
@@ -26,7 +26,7 @@ __这样就把问题分解为：__
 
 ## Code
 Talk is cheap , show me the code.
-```java
+```c++
 #include<bits/stdc++.h>
 #define int long long
 using namespace std;

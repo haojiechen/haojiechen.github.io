@@ -1,11 +1,11 @@
 ---
 layout: post
-title: '心情篇-博客旅途'
-subtitle: '心情录'
+title: '博客旅途'
+subtitle: '博客'
 date: 2017-9-2
 cover: /assets/img/First-Mood.jpg
-categories: 心情
-tags: 心情
+categories: 生活
+tags: 生活
 ---
 # 心情篇--博客旅途
 

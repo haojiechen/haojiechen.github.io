@@ -4,17 +4,17 @@ title: 'hdu 6069-Counting Divisors'
 subtitle: '算法篇'
 date: 2017-9-7
 categories: 算法
-tags: 算法 计数
+tags: ACM
 ---
 # HDU-6069 Counting Divisors
 __传送门__:   [点这里~](http://acm.hdu.edu.cn/showproblem.php?pid=6069) 
 ## 题意
-定义函数d(n)为n的因子个数，让你求区间【l,r】中所有d(i) (l<=i<=r)函数的和。
+定义函数`d(n)`为`n`的因子个数，让你求区间`【l,r】`中所有`d(i) (l<=i<=r)`函数的和。
 ## Solution 
-同样这是一个计数问题，由于l和r都很大，所以无法暴力求解。我们只能考虑每个素数对于它的倍数的贡献。对于一个数n来说，由唯一分解定理可知，n = p1^k1 * p2^k2 * ... * pm^km，其中pi为素数，ki为次方。从组合数的角度来看，对于n的每个素因子pi，我们可以任取0-ki个，那么n的因子的个数就应该是(k1+1) * (k2+1) * ... * (km + 1)。这样，我们就可以枚举 √r 以内的所有素数，分别算出区间【l,r】中每个数含有该素数的个数，对应相乘即可。具体看代码。
+同样这是一个计数问题，由于`l`和`r`都很大，所以无法暴力求解。我们只能考虑每个素数对于它的倍数的贡献。对于一个数`n`来说，由唯一分解定理可知，`n = p1^k1 * p2^k2 * ... * pm^km`，其中`pi`为素数，`ki`为次方。从组合数的角度来看，对于`n`的每个素因子`pi`，我们可以任取`0-ki`个，那么`n`的因子的个数就应该是`(k1+1) * (k2+1) * ... * (km + 1)`。这样，我们就可以枚举` √r` 以内的所有素数，分别算出区间`【l,r】`中每个数含有该素数的个数，对应相乘即可。具体看代码。
 ## Code
 Talk is cheap , show me the code.
-```java
+```c++
 #include<bits/stdc++.h>
 #define int long long
 using namespace std;
